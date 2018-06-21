@@ -5,4 +5,4 @@ function readJsonLines(string) {
     .map(line => JSON.parse(line));
 }
 
-module.exports = readJsonLines;
+export default readJsonLines;
