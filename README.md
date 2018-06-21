@@ -9,7 +9,7 @@
 
 Synchronous reader of a string containing many lines in JSON format
 
-## install
+## installation
 with NPM:
 ```
 npm install --save read-json-lines-sync
