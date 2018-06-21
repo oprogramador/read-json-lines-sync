@@ -13,7 +13,17 @@
     "type": "git",
     "url": "git+https://github.com/oprogramador/read-json-lines-sync.git"
   },
-  "keywords": ["sync","synchronous","read","reader","many","lines","json","parse","parser"],
+  "keywords": [
+    "sync",
+    "synchronous",
+    "read",
+    "reader",
+    "many",
+    "lines",
+    "json",
+    "parse",
+    "parser"
+  ],
   "author": "oprogramador",
   "license": "MIT",
   "bugs": {
