@@ -7,6 +7,8 @@
 [![NPM status](https://nodei.co/npm/read-json-lines-sync.png?downloads=true&stars=true)](https://npmjs.org/package/read-json-lines-sync
 )
 
+Synchronous reader of a string containing many lines in JSON format
+
 ## install
 with NPM:
 ```
