@@ -1,7 +1,7 @@
 {
-  "name": "__APP_NAME_58397D59__",
+  "name": "read-json-lines-sync",
   "version": "1.0.0",
-  "description": "__DESCRIPTION_87A106F6__",
+  "description": "Synchronous reader of a string containing many lines in JSON format",
   "main": "build/index.js",
   "scripts": {
     "build": "rm -rf build && babel --copy-files src --out-dir build --ignore tests/",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/__GITHUB_USER_7F71C1C7__/__APP_NAME_58397D59__.git"
+    "url": "git+https://github.com/oprogramador/read-json-lines-sync.git"
   },
-  "keywords": [__KEYWORDS_7072626B__],
-  "author": "__AUTHOR_43D5B693__",
+  "keywords": ["sync","synchronous","read","reader","many","lines","json","parse","parser"],
+  "author": "oprogramador",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/__GITHUB_USER_7F71C1C7__/__APP_NAME_58397D59__/issues"
+    "url": "https://github.com/oprogramador/read-json-lines-sync/issues"
   },
-  "homepage": "https://github.com/__GITHUB_USER_7F71C1C7__/__APP_NAME_58397D59__#readme",
+  "homepage": "https://github.com/oprogramador/read-json-lines-sync#readme",
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-core": "^6.24.0",
