@@ -1,6 +1,6 @@
 {
   "name": "read-json-lines-sync",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Synchronous reader of a string containing many lines in JSON format",
   "main": "build/index.js",
   "scripts": {
