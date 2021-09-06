@@ -1,7 +1,14 @@
 function readJsonLines(string) {
   return string.split('\n')
-    .filter(line => line)
-    .map(line => line.trim())
+    .filter((line) => {
+      try {
+        JSON.parse(line);
+
+        return true;
+      } catch (error) {
+        return false;
+      }
+    })
     .map(line => JSON.parse(line));
 }
 

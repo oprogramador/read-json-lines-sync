@@ -36,3 +36,8 @@ expect(result).to.deep.equal([
   { foo2: 'bar2' },
 ]);
 ```
+
+## specification
+* It omits every line which isn't a valid JSON.
+* For the remaining lines, it converts every line into an object.
+* So it always returns an array (possibly an empty array if there's no line with a valid JSON).
